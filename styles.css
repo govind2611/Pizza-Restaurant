@@ -1,0 +1,847 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 98vw;
+  height: 111px;
+  color: white;
+}
+header h1 {
+  font-family: "Ruda";
+  font-weight: 700;
+  font-size: 29px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.socials {
+  margin-right: 25px;
+}
+nav ul {
+  font-family: "Ruda";
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}
+nav li a {
+  justify-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+div i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.main-cont {
+  width: 100%;
+}
+.main {
+  position: relative;
+}
+.main img {
+  height: 1017px;
+  width: 100%;
+  opacity: 0.7;
+}
+.main h1 {
+  position: absolute;
+  width: 902px;
+  height: 215px;
+  left: 17px;
+  top: 240px;
+  background: none;
+  font-family: "Quattrocento";
+  font-weight: 700;
+  font-size: 101px;
+  line-height: 108px;
+  text-align: center;
+  color: #ffffff;
+}
+.main span {
+  position: absolute;
+  width: 586px;
+  height: 13px;
+  left: 196px;
+  top: 533px;
+  background: #f24c4c;
+  box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+.main p {
+  position: absolute;
+  width: 599px;
+  height: 325px;
+  left: 196px;
+  top: 613px;
+  background: none;
+  font-family: "Ruda";
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color: white;
+}
+.about-us {
+  display: flex;
+  align-items: center;
+}
+.about-us h1 {
+  position: absolute;
+  left: 600px;
+  top: 1216px;
+  font-family: "Quattrocento";
+  font-size: 60px;
+
+  color: #ffffff;
+}
+.about-us span {
+  position: absolute;
+  width: 526px;
+  height: 10px;
+  left: 480px;
+  top: 1289px;
+
+  background: #b62828;
+}
+.card1 span {
+  position: absolute;
+  width: 535px;
+  height: 4px;
+  left: 75px;
+  top: 1404px;
+
+  background: #f24c4c;
+  box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.card1 p {
+  position: absolute;
+  width: 550px;
+  height: 420px;
+  left: 75px;
+  top: 1440px;
+  background: none;
+  font-family: "Ruda";
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.card1 img {
+  position: absolute;
+  width: 500px;
+  height: 456px;
+  left: 900px;
+  top: 1378px;
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+
+  position: absolute;
+}
+
+.menu h1 {
+  position: absolute;
+  width: 474px;
+  height: 52px;
+  left: 600px;
+  top: 841px;
+  font-family: "Quattrocento";
+  font-size: 60px;
+}
+
+.menu span {
+  position: absolute;
+  width: 535px;
+  height: 10px;
+  left: 420px;
+  top: 915px;
+  background: #f24c4c;
+}
+.menu p {
+  position: absolute;
+  width: 1300px;
+  height: 378px;
+  left: 75px;
+  top: 980px;
+  font-family: "Ruda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 160% */
+
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+}
+
+.g-cont {
+  width: 800px;
+  left: 125px;
+  top: 1150px;
+  position: relative;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card img {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-family: "Ruda";
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: #f2c94c;
+}
+
+.card p {
+  font-family: "Ruda";
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+
+.find-us {
+  position: absolute;
+  top: 1800px;
+  width: 474px;
+  height: 52px;
+}
+.find-us h1 {
+  position: relative;
+  top: 1300px;
+  left: 600px;
+  font-family: "Quattrocento";
+  font-size: 60px;
+  color: #ffffff;
+}
+.find-us span {
+  position: absolute;
+  width: 535px;
+  height: 10px;
+  left: 450px;
+  top: 1380px;
+  background: #f24c4c;
+}
+.find-us .p1 {
+  position: absolute;
+  width: 750px;
+  height: 181px;
+  left: 75px;
+  top: 1450px;
+  font-family: "Ruda";
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+.find-us .img1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 75px;
+  top: 1650px;
+}
+.find-us .img2 {
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  left: 85px;
+  top: 1730px;
+}
+
+.find-us .p2 {
+  position: absolute;
+  width: 487px;
+  height: 43px;
+  left: 135px;
+  top: 1655px;
+  font-family: "Ruda";
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.find-us .p3 {
+  position: absolute;
+  width: 487px;
+  height: 43px;
+  left: 160px;
+  top: 1725px;
+  font-family: "Ruda";
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.find-us .p4 {
+  position: absolute;
+  width: 487px;
+  height: 43px;
+  left: 160px;
+  top: 1765px;
+  font-family: "Ruda";
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+iframe {
+  position: absolute;
+  left: 950px;
+  top: 1455px;
+}
+
+.footer {
+  position: relative;
+  top: 2100px;
+  display: inline-block;
+}
+.footer-logo {
+  position: absolute;
+  width: 150px;
+  left: 60px;
+}
+.email {
+  position: absolute;
+  left: 950px;
+}
+
+.email p {
+  color: white;
+}
+
+.email .p1 {
+  position: absolute;
+  left: 70px;
+  top: 14px;
+}
+.call {
+  height: 50px;
+  width: 50px;
+  margin-top: 40px;
+}
+.gmail {
+  height: 50px;
+  width: 50px;
+}
+
+.email .p2 {
+  position: absolute;
+  left: 70px;
+  top: 90px;
+  width: 100px;
+}
+
+.email .p3 {
+  position: absolute;
+  left: 70px;
+  top: 120px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1305px) {
+  .about-us h1 {
+    left: 80px;
+  }
+  .about-us .first {
+    left: 20px;
+    top: 1280px;
+    width: 400px;
+  }
+  .socials {
+    margin-right: 5px;
+  }
+  .about-us .second {
+    left: 20px;
+    top: 1350px;
+    width: 400px;
+  }
+  .about-us p {
+    top: 1355px;
+    left: 20px;
+    width: 45%;
+  }
+  .card1 img {
+    left: 650px;
+    top: 1355px;
+    width: 450px;
+  }
+  .menu h1 {
+    left: 80px;
+    top: 800px;
+  }
+  .menu span {
+    left: 20px;
+    width: 400px;
+    top: 875px;
+  }
+  .menu p {
+    left: 20px;
+    top: 900px;
+    width: 935px;
+    height: 220px;
+  }
+
+  .g-cont {
+    width: 200px;
+    left: 25px;
+    top: 1100px;
+  }
+  .grid-container {
+    grid-template-columns: 600px 600px;
+  }
+  .find-us h1 {
+    top: 1330px;
+    left: 80px;
+  }
+  .find-us span {
+    width: 400px;
+    left: 20px;
+    top: 1400px;
+  }
+  .find-us .p1 {
+    width: 1200px;
+    height: 181px;
+    left: 20px;
+    top: 1420px;
+  }
+  .find-us .img1 {
+    left: 20px;
+    top: 1550px;
+  }
+  .find-us .img2 {
+    left: 25px;
+    top: 1630px;
+  }
+
+  .find-us .p2 {
+    left: 85px;
+    top: 1550px;
+  }
+  .find-us .p3 {
+    left: 85px;
+    top: 1620px;
+  }
+
+  .find-us .p4 {
+    left: 85px;
+    top: 1655px;
+  }
+
+  iframe {
+    left: 200px;
+    top: 1725px;
+  }
+  .footer-logo {
+    left: 20px;
+  }
+  .email {
+    left: 550px;
+  }
+
+  header {
+    width: 98vw;
+    height: 131px;
+  }
+  .socials {
+    margin-right: 5px;
+  }
+  nav li a {
+    font-size: 18px;
+    padding: 0px 5px;
+  }
+  div i {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  header h1 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  .socials {
+    margin-right: 25px;
+  }
+  nav li a {
+    font-size: 10px;
+    padding: 0px 5px;
+  }
+  .about-us p {
+    top: 1355px;
+    width: auto;
+  }
+  .card1 img {
+    left: 200px;
+    top: 1600px;
+    height: 320px;
+  }
+
+  .menu h1 {
+    top: 800px;
+  }
+  .menu span {
+    top: 870px;
+  }
+  .menu p {
+    top: 885px;
+    width: 850px;
+  }
+  .grid-container {
+    grid-template-columns: 470px 470px;
+  }
+  .find-us {
+    top: 2200px;
+  }
+  .find-us h1 {
+    top: 1100px;
+  }
+  .find-us span {
+    top: 1170px;
+  }
+  .find-us .p1 {
+    width: 920px;
+    top: 1185px;
+  }
+  .find-us .img1 {
+    top: 1320px;
+  }
+  .find-us .img2 {
+    top: 1380px;
+  }
+
+  .find-us .p2 {
+    top: 1325px;
+  }
+  .find-us .p3 {
+    left: 85px;
+    top: 1375px;
+  }
+
+  .find-us .p4 {
+    left: 85px;
+    top: 1410px;
+  }
+
+  iframe {
+    left: 250px;
+    top: 1475px;
+  }
+  .footer-logo {
+    left: 20px;
+  }
+  .email {
+    left: 650px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    height: 81px;
+  }
+  nav li a {
+    font-size: 10px;
+  }
+  .main h1 {
+    width: 600px;
+    height: 215px;
+    left: 8px;
+    top: 80px;
+    font-size: 35px;
+  }
+  .main span {
+    left: 60px;
+    top: 163px;
+  }
+  .main p {
+    left: 56px;
+    top: 183px;
+  }
+  .main img {
+    height: 550px;
+  }
+  .about-us h1 {
+    top: 650px;
+    left: 80px;
+  }
+  .about-us .first {
+    top: 710px;
+  }
+  .about-us .second {
+    top: 730px;
+  }
+  .about-us p {
+    top: 760px;
+    width: 855px;
+  }
+  .card1 img {
+    top: 1000px;
+    width: 555px;
+  }
+
+  .menu h1 {
+    top: 800px;
+  }
+  .menu span {
+    top: 860px;
+  }
+  .menu p {
+    top: 900px;
+    width: 855px;
+  }
+  .g-cont {
+    top: 1100px;
+    left: 10px;
+    gap: 5px;
+  }
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .find-us h1 {
+    top: 100px;
+    left: 10px;
+  }
+  .find-us span {
+    top: 680px;
+    left: 10px;
+  }
+  .find-us .p1 {
+    top: 700px;
+    width: 780px;
+  }
+
+  iframe {
+    left: 50px;
+    top: 850px;
+  }
+}
+@media screen and (max-width: 800px) {
+  header h1 {
+    font-weight: 300;
+    font-size: 10px;
+    margin-left: 010px;
+  }
+  .socials {
+    display: none;
+  }
+  .main h1 {
+    width: 620px;
+    top: 120px;
+    font-size: 30px;
+  }
+  .main span {
+    display: none;
+  }
+  .main p {
+    width: auto;
+    height: auto;
+    left: 15px;
+    top: 223px;
+  }
+  .about-us h1 {
+    top: 600px;
+    font-size: 50px;
+  }
+  .about-us .first {
+    top: 660px;
+  }
+  .about-us .second {
+    top: 680px;
+  }
+  .card1 p {
+    top: 700px;
+    width: 80vw;
+  }
+  .card1 img {
+    left: 55px;
+    top: 1060px;
+    width: 70vw;
+    height: 40vw;
+  }
+  .menu p {
+    width: 60vw;
+    top: 880px;
+  }
+
+  .g-cont {
+    top: 1200px;
+  }
+  .grid-container {
+    grid-template-columns: 60vw;
+  }
+
+  .find-us {
+    top: 4510px;
+  }
+  .find-us h1 {
+    top: 10px;
+    left: 10px;
+  }
+  .find-us span {
+    display: none;
+  }
+  .find-us .p1 {
+    width: 80vw;
+    left: 10px;
+    top: 80px;
+  }
+
+  iframe {
+    left: 10px;
+    top: 255px;
+  }
+
+  .find-us .img1 {
+    left: 10px;
+    top: 700px;
+  }
+  .find-us .img2 {
+    left: 15px;
+    top: 780px;
+  }
+
+  .find-us .p2 {
+    left: 85px;
+    top: 705px;
+  }
+  .find-us .p3 {
+    left: 80px;
+    top: 775px;
+  }
+
+  .find-us .p4 {
+    left: 80px;
+    top: 815px;
+  }
+
+  .footer-logo {
+    top: 165px;
+    left: 20px;
+  }
+  .email {
+    top: 300px;
+    left: 20px;
+  }
+  .call {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main h1 {
+    width: 100vw;
+  }
+  .card1 img {
+    display: none;
+  }
+  .menu h1 {
+    top: 650px;
+  }
+  .menu span {
+    display: none;
+  }
+  .menu p {
+    width: 60vw;
+    top: 710px;
+  }
+  .find-us {
+    top: 3000px;
+  }
+  .find-us h1 {
+    top: 1790px;
+  }
+  .find-us span {
+    display: none;
+  }
+  .find-us .p1 {
+    width: 70vw;
+    left: 10px;
+    top: 1850px;
+  }
+
+  iframe {
+    left: 10px;
+    top: 2105px;
+  }
+
+  .find-us .img1 {
+    left: 10px;
+    top: 2600px;
+  }
+  .find-us .img2 {
+    left: 15px;
+    top: 2680px;
+  }
+
+  .find-us .p2 {
+    left: 85px;
+    top: 2605px;
+  }
+  .find-us .p3 {
+    left: 80px;
+    top: 2675px;
+  }
+
+  .find-us .p4 {
+    left: 80px;
+    top: 2705px;
+  }
+
+  .footer-logo {
+    top: 165px;
+    left: 20px;
+  }
+  .email {
+    top: 300px;
+    left: 20px;
+  }
+  .call {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+  }
+}
